@@ -5,7 +5,6 @@ on:
   pull_request:
     branches: [ "main" ]
 
-# Add permissions needed for github pages
 permissions:
   contents: write
   pages: write
@@ -38,6 +37,9 @@ jobs:
         run: yarn build --no-lint
         env:
           NEXT_PUBLIC_BASE_URL: ${{ secrets.NEXT_PUBLIC_BASE_URL }}
+
+      - name: Create .nojekyll file
+        run: touch out/.nojekyll
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
