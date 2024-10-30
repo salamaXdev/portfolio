@@ -40,22 +40,22 @@ const HomePage = () => {
       title: "AI-Powered Analytics Platform",
       description: "Enterprise-level dashboard for real-time data analysis and visualization",
       tech: ["Next.js", "TypeScript", "TailwindCSS", "GraphQL"],
-      image: "/api/placeholder/600/400",
-      link: "#"
+      image: "https://img.freepik.com/free-photo/ai-technology-microchip-background-digital-transformation-concept_53876-124669.jpg",
+      link: "https://img.freepik.com/free-photo/ai-technology-microchip-background-digital-transformation-concept_53876-124669.jpg"
     },
     {
       title: "E-Commerce Solution",
       description: "High-performance shopping platform with advanced filtering and search",
       tech: ["React", "Redux", "Node.js", "PostgreSQL"],
-      image: "/api/placeholder/600/400",
-      link: "#"
+      image: "https://ewm.swiss/application/files/8216/1597/9679/E-commerce_web_design_EWM_SA_Digital_Agency_Geneva.jpg",
+      link: "https://ewm.swiss/application/files/8216/1597/9679/E-commerce_web_design_EWM_SA_Digital_Agency_Geneva.jpg"
     },
     {
       title: "Collaborative Workspace",
       description: "Real-time collaboration tool with document sharing and video conferencing",
       tech: ["React", "WebRTC", "Socket.io", "MongoDB"],
-      image: "/api/placeholder/600/400",
-      link: "#"
+      image: "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/02/best-workspace-office-desk-setup-featured.jpg",
+      link: "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/02/best-workspace-office-desk-setup-featured.jpg"
     }
   ];
 
@@ -302,9 +302,9 @@ const HomePage = () => {
       {/* Contact Section */}
       <section id="contact" className="py-32 px-4">
         <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-8">Let's Connect</h2>
+          <h2 className="text-4xl font-bold mb-8">Lets Connect</h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 max-w-2xl mx-auto">
-            Interested in collaborating or have a project in mind? Let's discuss how we can work together.
+            Interested in collaborating or have a project in mind? Lets discuss how we can work together.
           </p>
           <div className="space-y-6">
             <a 
